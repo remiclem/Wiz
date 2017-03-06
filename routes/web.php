@@ -14,3 +14,20 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/login_page', function(){
+    return view('login_page');
+});
+
+Route::get('/main_page', function(){
+    return view('main_page');
+});
+
+Route::get('/edit_profil', function(){
+    return view('edit_profil');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
