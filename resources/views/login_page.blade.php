@@ -475,10 +475,14 @@
             display: none;
         }
 
+        body{
+            background-color: ghostwhite;
+        }
+
         .header{
             height: 100px;
             width: 100%;
-            background-color: red;
+            background-color: #ea5b13;
             vertical-align: top;
             display: inline-block;
         }
@@ -564,7 +568,7 @@
 
     <div class="header">
 
-        <h1>LOGO</h1>
+        <h1>TOOPY</h1>
 
         <div class="form">
 
@@ -587,7 +591,7 @@
 
     <div class="left_container">
 
-        <h1>Wiz c'est quoi ?</h1>
+        <h1>TOOPY c'est quoi ?</h1>
         <hr>
         <p>Lorem ipsum dolor sit amet,<br>
             consectetur adipisicing<br>

@@ -476,16 +476,17 @@
         }
 
         body{
-            background-color: #cdcccd;
+            background-color: ghostwhite;
+            opacity: 10;
         }
 
 
         .header{
             width: 100%;
             height: 100px;
-            background-color: #f26522;
+            background-color: #ea5b13;
             display: inline-block;
-            box-shadow: 0px 8px 8px #aaa;
+            box-shadow: 0px 1px 100px #aaa;
         }
 
 
@@ -518,7 +519,7 @@
             width: 250px;
             margin-top: 40px;
             margin-left: 40px;
-            background-color: #f6f7f9;
+            background-color: white;
             border: solid;
             border-width: 0.5px;
             border-radius: 10px;
@@ -557,7 +558,7 @@
         .POST{
             height: 600px;
             width: 550px;
-            background-color: #f6f7f9;
+            background-color: white;
             border: solid;
             border-width: 0.5px;
             border-radius: 10px;
@@ -576,7 +577,7 @@
         .profil{
             height:200px;
             width: 350px;
-            background-color: #f6f7f9;
+            background-color: white;
             border: solid;
             border-width: 0.5px;
             border-radius: 10px;
@@ -600,7 +601,7 @@
         .switch{
             height: 100px;
             width: 350px;
-            background-color: #f6f7f9;
+            background-color: white;
             border: solid;
             border-width: 0.5px;
             border-radius: 10px;
@@ -632,9 +633,9 @@
         <img src="images/logo.png" alt="">
 
         <ul>
-            <li>Menu 1</li>
-            <li>Menu 2</li>
-            <li>Menu 3</li>
+            <a href=""><li>Menu 1</li></a>
+            <a href=""><li>Menu 2</li></a>
+            <a href=""><li>Menu 3</li></a>
         </ul>
 
     </div><!--
@@ -662,7 +663,7 @@
         <div class="middle_container">
 
             <form method="post" action="traitement.php">
-                <p><input type="text" name="pseudo" /></p>
+                <p><input type="text" name="pseudo" placeholder="A quoi pensez-vous ?" /></p>
             </form>
 
 
