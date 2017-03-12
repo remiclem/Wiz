@@ -25,7 +25,7 @@ Route::get('/main_page', function(){
 });
 
 Route::get('/edit_profil', function(){
-    return view('edit_profil');
+    return view('profile.edit_profil');
 });
 
 Auth::routes();
